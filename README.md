@@ -10,9 +10,9 @@ Zephyr version:  4.2.99
 1. Clone this repository and pracblink repository  
 2. Enter virtual environment: source ~/zephyrproject/.venv/bin/activate
 3. Enter zephyr directory: cd ~/zephyrproject
-4. West build
+4. West build:
 west build -b mcxn947_protocard/mcxn947/cpu0 zephyr/pracblink -- -DBOARD_ROOT=/home/blen-ermias/zephyrproject 
-5. West flash
+5. West flash:
 west flash 
-6. Enter Picocom 
+6. Enter Picocom: 
 picocom -b 115200 /dev/ttyACM0 
