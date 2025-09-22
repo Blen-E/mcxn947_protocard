@@ -15,4 +15,4 @@ west build -b mcxn947_protocard/mcxn947/cpu0 zephyr/pracblink -- -DBOARD_ROOT=/h
 5. West flash:
 west flash -r jlink
 6. Enter Picocom: 
-picocom -b 115200 /dev/ttyACM0 
+picocom -b 115200 /dev/ttyUSB0 
